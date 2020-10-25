@@ -30,4 +30,7 @@ module.exports = {
             .use('svgo-loader')
             .loader('svgo-loader')
     },
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/Vue-project-aioli/'
+        : '/'
 };
