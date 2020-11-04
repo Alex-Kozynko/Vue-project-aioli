@@ -30,6 +30,13 @@ module.exports = {
             .use('svgo-loader')
             .loader('svgo-loader')
     },
+    configureWebpack: {
+        resolve: {
+            alias: {
+                "@": require("path").resolve(__dirname, "src")
+            }
+        }
+    },
     publicPath: process.env.NODE_ENV === 'production'
         ? '/Vue-project-aioli/'
         : '/'
