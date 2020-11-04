@@ -23,3 +23,5 @@ git commit -m 'deploy'
  git push -f git@github.com:Alex-front-end-developer/Vue-project-aioli.git master:gh-pages
 
 cd -
+
+pause

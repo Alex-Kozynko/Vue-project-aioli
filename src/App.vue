@@ -41,7 +41,7 @@
 </script>
 
 <style lang="scss">
-    @import "assets/styles/all_pages";
+@import "assets/styles/all_pages";
     .slide-left-enter-active,
     .slide-left-leave-active,
     .slide-right-enter-active,
